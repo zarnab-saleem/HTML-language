@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter Your name" minlength="7"  required>
+        <br>
+        <br>
+        
+        <label for="email">Email:</label>
+        <input id="name" type="email" pattern=".+@[a-z]+\.[a-z]{2, }" title="e.g: zarnab@saleem.com" 
+        placeholder="Enter Your email" required>
+        <br>
+        <br>
+        <label for="password">password:</label>
+        <input id="password" type="password" pattern="[a-z]{1}[A-Z]{1}[0-9]{1}[a-z]{5}" 
+        placeholder="Enter Your password" minlength="8" required>
+        <br>
+        <br>
+        <label for="age">age:</label>
+        <input id="age" type="number" placeholder="Enter Your age">
+        <br>
+        <br>
+         <label for="Gender"> Gender:</label>
+        <br>
+        <label for="radio"> Female</label>
+        <input type="radio" name="gender">
+        <br>
+        <lable for="radio"> Male</lable>
+        <input type="radio" name="gender">
+         <br><br>
+         <select name="city:">
+         <option value="karachi">option 1</option>
+         <option value="lahore"> option 2</option>
+         <option  value="fsd"> option 3</option>
+         </select>
+         <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
